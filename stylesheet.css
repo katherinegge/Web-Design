@@ -1,5 +1,5 @@
 .topnav {
-  text-align: left;
+  /* text-align: left; */
   padding: 10px;
 }
 .topnav a {
@@ -17,6 +17,16 @@
 }
 #homenav a:hover {
   color: #ebe537;
+}
+#homenav button {
+  background-color: #ebe537;
+  color: black;
+  /* text-align: right; */
+  font-family: optima; font-size: 120%;
+  text-decoration: none; text-transform: uppercase;
+}
+#homenav button:hover {
+  background-color: white;
 }
 #portfolionav {
   background-color: #ebe8e2;
