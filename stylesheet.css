@@ -61,3 +61,9 @@
   font-family: optima; font-size: 80%;
   padding: -10px;
 }
+.figure-caption {
+  margin-top: -310px;
+  text-align: center; color: white; font-size: 250%;
+  font-family: didot; font-style: italic;
+  padding-bottom: 110px;
+}
