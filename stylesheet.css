@@ -34,15 +34,22 @@
 }
 #portfolionav a {
   color: black;
-  font-size: 110%;
 }
 #portfolionav a:hover {
   color: white;
+  background-color: #7f7e4b;
+  border-radius: 5px;
+}
+#portfolionav button {
   background-color: black;
+  color: white;
+}
+#portfolionav button:hover {
+  background-color: #7f7e4b;
 }
 .row {
   margin-left: 10.5vw; margin-right: 10.5vw;
-  margin-top: 30px; margin-bottom: 50px;
+  margin-top: 30px; margin-bottom: 100px;
   background-color: black;
   padding-top: 10px; padding-bottom: 10px;
 }
@@ -51,19 +58,43 @@
   padding: 5px;
   margin-left: auto; margin-right: auto;
 }
+#portfoliobody {
+  background-color: #ebe8e2;
+}
 #footer {
   background-color: #070c04;
-  text-align: left;
-  padding: 10px 20px 100px 20px;
+  text-align: center;
+  padding: 70px;
 }
-#footer p {
-  color: #4d66fc;
-  font-family: optima; font-size: 80%;
-  padding: -10px;
+#footer h1, h2, h3 {
+  color: white;
+}
+#footer h1 {
+  font-family: optima;
+  text-transform: uppercase;
+  font-size: 130%;
+}
+#footer h2, h3 {
+  font-size: 90%;
+}
+#footer h2 {
+  font-family: didot;
+  font-style: italic;
+}
+#footer h3 {
+  font-family: optima;
 }
 .figure-caption {
-  margin-top: -310px;
-  text-align: center; color: white; font-size: 250%;
+  text-align: center;
   font-family: didot; font-style: italic;
+}
+#caption1 {
+  color: white; font-size: 250%;
+  margin-top: -310px;
   padding-bottom: 110px;
+}
+#caption2 {
+  color: black; font-size: 200%;
+  margin-top: -760px;
+  padding-bottom: 640px;
 }
