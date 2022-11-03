@@ -1,13 +1,17 @@
-.topnav {
-  /* text-align: left; */
+.navbar {
   padding: 10px;
 }
-.topnav a {
+.navbar a {
   display: inline-block;
   font-family: optima;
   text-decoration: none; text-transform: uppercase;
-  margin-left: 2vw; margin-right: 2vw;
   padding: 10px;
+  margin-right: 4vw; margin-left: 1vw;
+}
+.navbar button {
+  text-decoration: none; text-transform: uppercase;
+  font-family: optima; font-size: 110%;
+  margin-right: 10px;
 }
 #homenav {
   background-color: #1c2334;
@@ -21,9 +25,6 @@
 #homenav button {
   background-color: #ebe537;
   color: black;
-  /* text-align: right; */
-  font-family: optima; font-size: 120%;
-  text-decoration: none; text-transform: uppercase;
 }
 #homenav button:hover {
   background-color: white;
@@ -32,22 +33,23 @@
   background-color: #ebe8e2;
 }
 #portfolionav a {
-  color: #1c2334;
+  color: black;
+  font-size: 110%;
 }
 #portfolionav a:hover {
   color: white;
-  text-shadow: 1px 1px #000000;
-}
-#homephotos img {
-  width: 100%;
+  background-color: black;
 }
 .row {
   margin-left: 10.5vw; margin-right: 10.5vw;
-  margin-top: 60px; margin-bottom: 80px;
+  margin-top: 30px; margin-bottom: 50px;
+  background-color: black;
+  padding-top: 10px; padding-bottom: 10px;
 }
 #column img {
-  width: 25vw; height: auto;
-  padding: 0.25vw;
+  width: 33%; height: auto;
+  padding: 5px;
+  margin-left: auto; margin-right: auto;
 }
 #footer {
   background-color: #070c04;
