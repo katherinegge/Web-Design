@@ -47,6 +47,22 @@
 #portfolionav button:hover {
   background-color: #7f7e4b;
 }
+#aboutmenav {
+  background-color: #ffedf5;
+}
+#aboutmenav a {
+  color: black;
+}
+#aboutmenav a:hover {
+  color: #9c687c;
+}
+#aboutmenav button {
+  background-color: #9c687c;
+  color: white;
+}
+#aboutmenav button:hover {
+  background-color: black;
+}
 .row {
   margin-left: 10.5vw; margin-right: 10.5vw;
   margin-top: 30px; margin-bottom: 100px;
@@ -89,12 +105,20 @@
   font-family: didot; font-style: italic;
 }
 #caption1 {
-  color: white; font-size: 250%;
+  color: white; font-size: 200%;
   margin-top: -310px;
   padding-bottom: 110px;
 }
 #caption2 {
-  color: black; font-size: 200%;
-  margin-top: -760px;
-  padding-bottom: 640px;
+  color: black; font-size: 150%;
+  margin-top: -850px;
+  padding-bottom: 720px;
+}
+#aboutme {
+  background-color: #ffedf5;
+  padding: 30px 200px 50px 200px;
+}
+#aboutme p {
+  color: black;
+  font-family: optima; font-size: 110%;
 }
