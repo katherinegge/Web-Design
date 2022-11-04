@@ -63,7 +63,23 @@
 #aboutmenav button:hover {
   background-color: black;
 }
-.row {
+#contactnav {
+  background-color: #070c04;
+}
+#contactnav a {
+  color: white;
+}
+#contactnav a:hover {
+  color: #9e9e9e;
+}
+#contactnav button {
+  background-color: #9e9e9e;
+  color: black;
+}
+#contactnav button:hover {
+  background-color: white;
+}
+#photorow {
   margin-left: 10.5vw; margin-right: 10.5vw;
   margin-top: 30px; margin-bottom: 100px;
   background-color: black;
@@ -121,4 +137,46 @@
 #aboutme p {
   color: black;
   font-family: optima; font-size: 110%;
+}
+#contact {
+  background-color: #1f1f1f;
+  color: white;
+}
+#formcolumn {
+  float: left; width: 50%;
+  padding: 120px 200px 150px 30px;
+}
+#contactcolumn {
+  float: left; width: 50%;
+  padding: 120px 30px 150px 180px;
+}
+#contactcolumn h1 {
+  font-family: optima; font-size: 250%;
+  text-transform: uppercase;
+}
+#contactcolumn h2 {
+  font-family: didot; font-size: 120%; font-style: italic;
+}
+#contactcolumn p {
+  font-family: optima;
+}
+.form-group {
+  padding-bottom: 30px;
+}
+.form-group input, textarea {
+  width: 100%;
+  padding: 8px;
+}
+.form-group label {
+  font-family: optima;
+  padding: 5px;
+}
+.form-group button {
+  text-decoration: none; text-transform: uppercase;
+  font-family: optima; font-size: 110%;
+  background-color: black; color: white;
+  padding: 10px 20px;
+}
+.form-group button:hover {
+  background-color: #9e9e9e; color: black;
 }
