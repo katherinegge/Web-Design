@@ -36,9 +36,7 @@
   color: black;
 }
 #portfolionav a:hover {
-  color: white;
-  background-color: #7f7e4b;
-  border-radius: 5px;
+  color: #7f7e4b;
 }
 #portfolionav button {
   background-color: black;
@@ -122,11 +120,11 @@
 }
 #caption1 {
   color: white; font-size: 200%;
-  margin-top: -310px;
-  padding-bottom: 110px;
+  margin-top: -380px;
+  padding-bottom: 250px;
 }
 #caption2 {
-  color: black; font-size: 150%;
+  color: white; font-size: 150%;
   margin-top: -850px;
   padding-bottom: 720px;
 }
