@@ -173,11 +173,20 @@
 #aboutme {
   padding: 40px 200px;
   background-color: #ffedf5;
+  text-align: center; float: center;
 }
 #aboutme h1, p {
   color: black;
+}
+#aboutme p {
   font-family: optima;
 }
 #aboutme h1 {
-  font-size: 200%;
+  font-size: 250%; font-family: didot;
+  font-style: italic;
+}
+#aboutme img {
+  width: 800px; height: 500px;
+  margin-left: auto; margin-right: auto;
+  padding-bottom: 40px;
 }
