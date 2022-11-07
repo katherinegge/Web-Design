@@ -122,11 +122,13 @@
   color: white; font-size: 200%;
   margin-top: -380px;
   padding-bottom: 250px;
+  text-shadow: 1px 1px grey;
 }
 #caption2 {
   color: white; font-size: 150%;
   margin-top: -850px;
   padding-bottom: 720px;
+  text-shadow: 1px 1px grey;
 }
 #contact {
   background-color: #1f1f1f;
