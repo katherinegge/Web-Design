@@ -13,31 +13,45 @@
   background-color: #1c2334;
 }
 #homenav a {
-  color: white;
+  color: #ebe8e2;
 }
 #homenav a:hover {
-  color: #ebe537;
+  color: #add8e6;
+  text-shadow: 1px 1px #000000;
 }
 #homenav button {
-  background-color: #ebe537;
+  background-color: #add8e6;
   color: black;
   /* text-align: right; */
   font-family: optima; font-size: 120%;
   text-decoration: none; text-transform: uppercase;
 }
 #homenav button:hover {
-  background-color: white;
+  background-color: #ebe8e2;
 }
 #portfolionav {
-  background-color: #ebe8e2;
+    background-color: #ebe8e2;
 }
 #portfolionav a {
   color: #1c2334;
 }
 #portfolionav a:hover {
-  color: white;
-  text-shadow: 1px 1px #000000;
+  color: #9F8C76;
+  text-shadow: 1px 1px #ffffff;
 }
+
+#portfolionav button {
+  background-color: #9F8C76;
+  color: white;
+  font-family: optima; font-size: 120%;
+  text-decoration: none; text-transform: uppercase;
+  border-width: 0px;
+}
+
+#portfolionav button:hover {
+  background-color: #1c2334;
+}
+
 #homephotos img {
   width: 100%;
 }
