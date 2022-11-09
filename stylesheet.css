@@ -1,13 +1,17 @@
-.topnav {
-  /* text-align: left; */
+.navbar {
   padding: 10px;
 }
-.topnav a {
+.navbar a {
   display: inline-block;
   font-family: optima;
   text-decoration: none; text-transform: uppercase;
-  margin-left: 2vw; margin-right: 2vw;
   padding: 10px;
+  margin-right: 4vw; margin-left: 1vw;
+}
+.navbar button {
+  text-decoration: none; text-transform: uppercase;
+  font-family: optima; font-size: 110%;
+  margin-right: 10px;
 }
 #homenav {
   background-color: #1c2334;
@@ -22,9 +26,6 @@
 #homenav button {
   background-color: #add8e6;
   color: black;
-  /* text-align: right; */
-  font-family: optima; font-size: 120%;
-  text-decoration: none; text-transform: uppercase;
 }
 #homenav button:hover {
   background-color: #ebe8e2;
@@ -33,7 +34,7 @@
     background-color: #ebe8e2;
 }
 #portfolionav a {
-  color: #1c2334;
+  color: black;
 }
 #portfolionav a:hover {
   color: #9F8C76;
@@ -54,22 +55,165 @@
 
 #homephotos img {
   width: 100%;
+  color: #7f7e4b;
 }
-.row {
+#portfolionav button {
+  background-color: black;
+  color: white;
+}
+#portfolionav button:hover {
+  background-color: #7f7e4b;
+}
+#aboutmenav {
+  background-color: #ffedf5;
+}
+#aboutmenav a {
+  color: black;
+}
+#aboutmenav a:hover {
+  color: #9c687c;
+}
+#aboutmenav button {
+  background-color: #9c687c;
+  color: white;
+}
+#aboutmenav button:hover {
+  background-color: black;
+}
+#contactnav {
+  background-color: #070c04;
+}
+#contactnav a {
+  color: white;
+}
+#contactnav a:hover {
+  color: #9e9e9e;
+}
+#contactnav button {
+  background-color: #9e9e9e;
+  color: black;
+}
+#contactnav button:hover {
+  background-color: white;
+}
+#photorow {
   margin-left: 10.5vw; margin-right: 10.5vw;
-  margin-top: 60px; margin-bottom: 80px;
+  margin-top: 30px; margin-bottom: 100px;
+  background-color: black;
+  padding-top: 10px; padding-bottom: 10px;
 }
 #column img {
-  width: 25vw; height: auto;
-  padding: 0.25vw;
+  width: 33%; height: auto;
+  padding: 5px;
+  margin-left: auto; margin-right: auto;
+}
+#portfoliobody {
+  background-color: #ebe8e2;
 }
 #footer {
   background-color: #070c04;
-  text-align: left;
-  padding: 10px 20px 100px 20px;
+  text-align: center;
+  padding: 70px;
 }
-#footer p {
-  color: #4d66fc;
-  font-family: optima; font-size: 80%;
-  padding: -10px;
+#footer h1, h2, h3 {
+  color: white;
+}
+#footer h1 {
+  font-family: optima;
+  text-transform: uppercase;
+  font-size: 130%;
+}
+#footer h2, h3 {
+  font-size: 90%;
+}
+#footer h2 {
+  font-family: didot;
+  font-style: italic;
+}
+#footer h3 {
+  font-family: optima;
+}
+.figure-caption {
+  text-align: center;
+  font-family: didot; font-style: italic;
+}
+#caption1 {
+  color: white; font-size: 200%;
+  margin-top: -380px;
+  padding-bottom: 250px;
+}
+#caption2 {
+  color: white; font-size: 150%;
+  margin-top: -850px;
+  padding-bottom: 720px;
+}
+#contact {
+  background-color: #1f1f1f;
+  color: white;
+}
+#formcolumn {
+  float: left; width: 50%;
+  padding: 120px 15vw 150px 30px;
+}
+#contactcolumn {
+  float: left; width: 50%;
+  padding: 120px 30px 150px 15vw;
+}
+#contactcolumn h1 {
+  font-family: optima; font-size: 250%;
+  text-transform: uppercase;
+}
+#contactcolumn h2 {
+  font-family: didot; font-size: 120%; font-style: italic;
+}
+#contactcolumn p {
+  font-family: optima; color: white;
+}
+.form-group {
+  padding-bottom: 30px;
+}
+.form-group input, textarea {
+  width: 100%;
+  padding: 8px;
+}
+.form-group label {
+  font-family: optima;
+  padding: 5px;
+}
+.form-group button {
+  text-decoration: none; text-transform: uppercase;
+  font-family: optima; font-size: 110%;
+  background-color: black; color: white;
+  padding: 10px 20px;
+}
+.form-group button:hover {
+  background-color: #9e9e9e; color: black;
+}
+#aboutme {
+  padding: 40px 200px;
+  background-color: #ffedf5;
+  text-align: center; float: center;
+}
+#aboutme h1, p {
+  color: black;
+}
+#aboutme p {
+  font-family: optima;
+}
+#aboutme h1 {
+  font-size: 250%; font-family: didot;
+  font-style: italic;
+}
+#aboutme img {
+  width: 40vw; height: auto;
+  margin-left: auto; margin-right: auto; margin-bottom: 40px;
+  border: 10px solid #9c687c;
+}
+.carousel-caption p {
+  font-family: didot; font-style: italic; font-size: 150%;
+  color: white;
+}
+.carousel-caption h2 {
+  font-family: didot; font-style: italic;
+  margin-top: -330px;
 }
