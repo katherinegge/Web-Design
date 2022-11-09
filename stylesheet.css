@@ -134,11 +134,11 @@
 }
 #formcolumn {
   float: left; width: 50%;
-  padding: 120px 200px 150px 30px;
+  padding: 120px 15vw 150px 30px;
 }
 #contactcolumn {
   float: left; width: 50%;
-  padding: 120px 30px 150px 180px;
+  padding: 120px 30px 150px 15vw;
 }
 #contactcolumn h1 {
   font-family: optima; font-size: 250%;
@@ -186,7 +186,15 @@
   font-style: italic;
 }
 #aboutme img {
-  width: 800px; height: 500px;
-  margin-left: auto; margin-right: auto;
-  padding-bottom: 40px;
+  width: 40vw; height: auto;
+  margin-left: auto; margin-right: auto; margin-bottom: 40px;
+  border: 10px solid #9c687c;
+}
+.carousel-caption p {
+  font-family: didot; font-style: italic; font-size: 150%;
+  color: white;
+}
+.carousel-caption h2 {
+  font-family: didot; font-style: italic;
+  margin-top: -330px;
 }
